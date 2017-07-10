@@ -8,7 +8,8 @@ public class TestFlatFileReader {
 
 	@Test
 	public void should_read_csv_file() {
-		FileReader fileReader=null;
+		Resource resource=new FileResource("testCSV");
+		FileReader fileReader=new FlatFileReader();
 		
 		
 	}
